@@ -1,0 +1,43 @@
+
+font-family: 'Atkinson Hyperlegible', sans-serif;
+
+html{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;    
+}
+.button-container{
+    border: 1px solid lightgray;
+    padding:10px;
+    border-radius: 7px;
+    box-shadow: inset 0 20px 4px -19px darkgrey;
+    background-color: #F2F2F2;
+}
+button{
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+    outline: none;
+    width: 120px;
+    height: 75px;
+    font-size: 25px;
+    color: #56a0ad;
+    text-shadow:0 2px 5px lightslategrey;
+    background:linear-gradient(to bottom, #F26849, 20px, bisque);
+    border: 1px solid  lightslategray;
+    border-radius: 7px;
+    box-shadow: inset 0 20px 4px -19px darkgrey, 2px 5px 5px 0 rgb(169,169,169, 0.5);
+}
+button:hover{
+    background:linear-gradient(to top, #F26849, 40px, bisque);
+}
+button:active{
+    transform: translateY(3px);
+    box-shadow: inset 0 6px 4px -19px darkgrey, 2px 5px 5px 0 rgb(169,169,169);
+}
